@@ -9,20 +9,21 @@ h1 {
 }
 
 
+
+
 /* Navbar styles */
 
 .navbar {
     background-color: #132442;
 }
 
-.navbar h1 {
+.navbar a, .navbar h1 {
   color: #ffffff;
 }
 
 ul {
   list-style-type: none;
 }
-
 
 /* The hero image */
 .hero-image {
