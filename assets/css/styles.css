@@ -1,11 +1,11 @@
 /* General styles */
 
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 h1 {
-    color: #132442;
+  color: #132442;
 }
 
 
@@ -14,81 +14,91 @@ h1 {
 /* Navbar styles */
 
 .navbar {
-    background-color: #132442;
+  background-color: #132442;
 }
 
-.navbar a, .navbar h1 {
-  color: #ffffff;
+.nav-prevent-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
+.navbar a {
+  color: white;
+}
+
+.dropdown-item {
+  color: #132442;
+}
 ul {
   list-style-type: none;
 }
 
 /* The hero image */
 #hero {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 
-    height: 600px;
-    width: 100%;
-    background: no-repeat center center/cover;
-    position: relative;
-  }
+  height: 600px;
+  width: 100%;
+  background: no-repeat center center/cover;
+  position: relative;
+}
 
-  
-  /* Place text in the middle of the image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
 /* Front page styling */
 
 /* 4 blue squares with info about 4 different pillars of CONTEST */
 
 .blue-square {
-    background-color: #132442;
-    color: white;
-    border-radius: 10px;
-    padding: 40px;
-    margin: 10px 0;
-  }
-  
-  .blue-square h1 {
-    margin-bottom: 20px;
-    color: white;
-    padding-top: 15px;
-  }
-  
-  .blue-square p {
-    text-align: center;
-  }
+  background-color: #132442;
+  color: white;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 10px 0;
+}
+
+.blue-square h1 {
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 15px;
+}
+
+.blue-square p {
+  text-align: center;
+}
 
 /* Footer */
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
+
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color:#132442;
+  font-size: 160%;
+  padding: 5%;
+  color: #132442;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .footer-end {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
