@@ -17,10 +17,11 @@ h1 {
   background-color: #132442;
 }
 
-.nav-prevent-name {
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
+/* why you not work :( */
+.navbar-alignment {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
 
 /*.navbar a {
