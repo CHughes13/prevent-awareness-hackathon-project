@@ -1,7 +1,7 @@
 /* General styles */
 
 body {
-    background-color: #E8D6CB;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -9,16 +9,28 @@ h1 {
 }
 
 
-/* Nav bar styles */
+
+
+/* Navbar styles */
 
 .navbar {
-    justify-content: flex-end;
+    background-color: #132442;
+}
+
+.navbar a, .navbar h1 {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./assets/images/community-is-strength.jpg");
+
   
     /* Set a specific height */
     height: 600px;
@@ -49,17 +61,18 @@ h1 {
     background-color: #132442;
     color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     margin: 10px 0;
   }
   
   .blue-square h1 {
     margin-bottom: 20px;
     color: white;
+    padding-top: 15px;
   }
   
   .blue-square p {
-    text-align: left;
+    text-align: center;
   }
 
 /* Footer */
@@ -73,7 +86,7 @@ h1 {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color
+    color:#132442;
 }
 
 .logo {
