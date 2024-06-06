@@ -1,11 +1,11 @@
 /* General styles */
 
 body {
-    background-color: yellow;
+    background-color: #E8D6CB;
 }
 
 h1 {
-    color:blue
+    color: #132442;
 }
 
 
@@ -18,7 +18,7 @@ h1 {
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/images/community-is-strength.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./assets/images/community-is-strength.jpg");
   
     /* Set a specific height */
     height: 600px;
@@ -41,8 +41,26 @@ h1 {
     color: white;
   }
 
+/* Front page styling */
 
+/* 4 blue squares with info about 4 different pillars of CONTEST */
 
+.blue-square {
+    background-color: #132442;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  .blue-square h1 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .blue-square p {
+    text-align: left;
+  }
 
 /* Footer */
 #social-networks {
